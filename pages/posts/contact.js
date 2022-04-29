@@ -7,6 +7,7 @@ export default function Profile({pageProps }) {
   <Intro />
     
     <h1>Please contact to me!</h1>
+    
   </>
   
 }

@@ -6,14 +6,32 @@
     "start": "next start"
   },
   "dependencies": {
-    "autoprefixer": "^10.4.5",
+    "@sendgrid/mail": "^7.6.2",
     "html2canvas": "^1.4.1",
     "next": "latest",
     "next-auth": "^4.3.3",
-    "postcss": "^8.4.12",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "react-icons": "^4.3.1",
+    "react-icons": "^4.3.1"
+  },
+  "name": "portfolio_nextjs",
+  "description": "This is a starter template for [Learn Next.js](https://nextjs.org/learn).",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "autoprefixer": "^10.4.5",
+    "postcss": "^8.4.12",
     "tailwindcss": "^3.0.24"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Keiji-morita/introduction_site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Keiji-morita/introduction_site/issues"
+  },
+  "homepage": "https://github.com/Keiji-morita/introduction_site#readme"
 }
