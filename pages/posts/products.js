@@ -4,9 +4,11 @@ export default function Profile({pageProps }) {
   return <>
   <component {...pageProps} />
 
-  <Intro />
+  <div class="h-screen w-screen">
+  <Intro class="h-1/2"/>
     
     <h1>These are my products</h1>
+    </div>
   </>
   
 }
