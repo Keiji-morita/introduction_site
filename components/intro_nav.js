@@ -38,7 +38,7 @@ export default function Intro() {
   shadow-lg
   navbar navbar-expand-lg navbar-light container mx-auto">
           
-            <div class="flex flex-row container mx-auto">
+            <div class="flex flex-row container mx-auto text-center">
               <div>
               <a href="/posts/profile" class="py-2 px-6 flex font-serif hover:text-blue-600/75">Profile</a>
               </div>

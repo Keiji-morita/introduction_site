@@ -8,12 +8,11 @@ export default function Profile({pageProps }) {
   <Intro class="h-1/2"/>
 
 
-<div class="flex items-center min-h-screen bg-gray-50 dark:bg-gray-900">
-    <div class="container mx-auto">
-        <div class="max-w-md mx-auto my-10 bg-white p-5 rounded-md shadow-sm">
+<div class="flex items-center  bg-gray-50 dark:bg-gray-900 w-screen">
+    <div class="container mx-auto w-full">
+        <div class="max-w-md mx-auto my-5 bg-white p-5 rounded-md shadow-sm w-full">
             <div class="text-center">
-                <h1 class="my-3 text-3xl font-semibold text-gray-700 dark:text-gray-200">Contact Us</h1>
-                <p class="text-gray-400 dark:text-gray-400">Fill up the form below to send us a message.</p>
+                <h1 class="my-3 text-3xl font-semibold text-gray-700 dark:text-gray-200">お問合せ</h1>
             </div>
             <div class="m-7">
                 <form action="https://api.web3forms.com/submit" method="POST" id="form">
@@ -32,9 +31,6 @@ export default function Profile({pageProps }) {
                         <input type="email" name="email" id="email" placeholder="you@company.com" required class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" />
                     </div>
                     <div class="mb-6">
-
-                        <label for="phone" class="text-sm text-gray-600 dark:text-gray-400">Phone Number</label>
-                        <input type="text" name="phone" id="phone" placeholder="+1 (555) 1234-567" required class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" />
                     </div>
                     <div class="mb-6">
                         <label for="message" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Your Message</label>
