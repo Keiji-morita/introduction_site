@@ -11,37 +11,44 @@ export default function Intro() {
 
     </header>
     <div class="h-2/3 w-screen">
-    <div class="bg-gray-400   flex flex-row h-3/4 ">
-        <div class="basis-2/4">
-          <h3 class="font-serif">
+    <div class="  flex flex-row h-3/4 " >
+        <div class="basis-2/4  ">
+          <div class="p-8 max-w-3xl text-5xl md:text-6xl font-bold mx-auto dark:text-white text-gray-800 text-center mt-auto">
+          <h3 class="font-serif text-2xl ">
             Hello!
           </h3>
-          <h3 class="font-serif">Nice to meet you!</h3>
+          <h3 class="font-serif text-2xl">Nice to meet you!</h3>
+          </div>
         </div>
 
 
-        <img class="rounded-full basis-1/4 h-67 w-60" src="/images/introduction.jpg" alt="My avatar" />
+        <img class="rounded-full basis-1/4 h-67 w-60" src="/images/brian.png" alt="My avatar" />
       </div>
-      <div>
-        <nav list-none>
-          <ul>
-            <li>
-              <Link href="/posts/profile">
-                <a>Profile</a>
-              </Link>
-            </li>
-
-            <li>
-              <Link href="/posts/products">
-                <a>Products</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/posts/contact">
-                <a>Contact</a>
-              </Link>
-            </li>
-          </ul>
+      <div class="border-double">
+        <nav list-none class="  relative
+  w-3/4
+  flex flex-wrap
+  items-center
+  justify-between
+  py-4
+  bg-gray-100
+  text-gray-500
+  hover:text-gray-700
+  focus:text-gray-700
+  shadow-lg
+  navbar navbar-expand-lg navbar-light container mx-auto">
+          
+            <div class="flex flex-row container mx-auto">
+              <div>
+              <a href="/posts/profile" class="py-2 px-6 flex font-serif hover:text-blue-600/75">Profile</a>
+              </div>
+              <div>
+              <a href="/posts/products" class="py-2 px-6 flex font-serif hover:text-blue-600/75">Products</a>
+              </div>
+              <div>
+              <a href="/posts/contact" class="py-2 px-6 flex font-serif hover:text-blue-600/75">Contact</a>
+              </div>
+            </div>
         </nav>
       </div>
       </div>
