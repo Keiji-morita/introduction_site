@@ -1,57 +1,78 @@
-import  Intro from '../../components/intro_nav';
+import Intro from "../../components/intro_nav";
 
-export default function Profile({pageProps }) {
-  return <>
-  <component {...pageProps} />
+export default function Profile({ pageProps }) {
+  return (
+    <>
+      <component {...pageProps} />
 
-  <div class="h-screen w-screen">
-  <Intro class="h-1/2"/>
+      <div class="h-screen w-screen">
+        <Intro class="h-1/2" />
 
-
-<div class="flex items-center  bg-gray-50 dark:bg-gray-900 w-screen">
-    <div class="container mx-auto w-full">
-        <div class="max-w-md mx-auto my-5 bg-white p-5 rounded-md shadow-sm w-full">
-            <div class="text-center">
-                <h1 class="my-3 text-3xl font-semibold text-gray-700 dark:text-gray-200">お問合せ</h1>
+        <div class="w-full bg-gray-800 h-screen">
+          <div class="bg-gradient-to-b from-blue-800 to-blue-600 h-96"></div>
+          <div class="max-w-5xl mx-auto px-6 sm:px-6 lg:px-8 mb-12">
+            <div class="bg-white w-full shadow rounded p-8 sm:p-12 -mt-72">
+              <p class="text-3xl font-bold leading-7 text-center text-black font-mono ">
+                Contact
+              </p>
+              <form action="" method="post">
+                <div class="md:flex items-center mt-12">
+                  <div class="w-full md:w-1/2 flex flex-col">
+                    <label class="font-semibold leading-none text-black font-mono ">
+                      Name
+                    </label>
+                    <input
+                      type="text"
+                      class="leading-none text-black p-3 focus:outline-none focus:border-blue-700 mt-4 border placeholder-gray-500 rounded"
+                    />
+                  </div>
+                  <div class="w-full md:w-1/2 flex flex-col md:ml-6 md:mt-0 mt-4">
+                    <label class="font-semibold leading-none text-black font-mono ">
+                      Phone
+                    </label>
+                    <input
+                      type="email"
+                      class="leading-none text-black p-3 focus:outline-none focus:border-blue-700 mt-4 border placeholder-gray-500 rounded font-mono "
+                    />
+                  </div>
+                </div>
+                <div class="md:flex items-center mt-8">
+                  <div class="w-full flex flex-col">
+                    <label class="font-semibold leading-none text-black font-mono ">
+                      E-mail adress
+                    </label>
+                    <input
+                      type="text"
+                      class="leading-none text-black p-3 focus:outline-none focus:border-blue-700 mt-4 border placeholder-gray-500 rounded"
+                    />
+                  </div>
+                </div>
+                <div>
+                  <div class="w-full flex flex-col mt-8">
+                    <label class="font-semibold leading-none text-black font-mono ">
+                      Message
+                    </label>
+                    <textarea
+                      type="text"
+                      class="h-40 text-base leading-none text-black p-3 focus:outline-none focus:border-blue-700 mt-4 border placeholder-gray-500 rounded"
+                    ></textarea>
+                  </div>
+                </div>
+                <div class="flex items-center justify-center w-full">
+                  <button class="mt-9 font-semibold leading-none text-white py-4 px-10 bg-blue-700 rounded hover:bg-blue-600 focus:ring-2 focus:ring-offset-2 focus:ring-blue-700 focus:outline-none font-mono ">
+                    Send message
+                  </button>
+                </div>
+              </form>
             </div>
-            <div class="m-7">
-                <form action="https://api.web3forms.com/submit" method="POST" id="form">
-
-                    <input type="hidden" name="apikey" value="YOUR_ACCESS_KEY_HERE" />
-                    <input type="hidden" name="subject" value="New Submission from Web3Forms " />
-                    <input type="checkbox" name="botcheck"  />
-
-
-                    <div class="mb-6">
-                        <label for="name" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Full Name</label>
-                        <input type="text" name="name" id="name" placeholder="John Doe" required class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" />
-                    </div>
-                    <div class="mb-6">
-                        <label for="email" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Email Address</label>
-                        <input type="email" name="email" id="email" placeholder="you@company.com" required class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" />
-                    </div>
-                    <div class="mb-6">
-                    </div>
-                    <div class="mb-6">
-                        <label for="message" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Your Message</label>
-
-                        <textarea rows="5" name="message" id="message" placeholder="Your Message" class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" required></textarea>
-                    </div>
-                    <div class="mb-6">
-                        <button type="submit" class="w-full px-3 py-4 text-white bg-indigo-500 rounded-md focus:bg-indigo-600 focus:outline-none">Send Message</button>
-                    </div>
-                    <p class="text-base text-center text-gray-400" id="result">
-                    </p>
-                </form>
-            </div>
+          </div>
         </div>
-    </div>
-</div>
-</div>
-
-</>
+      </div>
+    </>
+  );
 }
-{/* <script>
+{
+  /* <script>
 const form = document.getElementById('form');
 const result = document.getElementById('result');
 
@@ -102,4 +123,5 @@ form.addEventListener('submit', function(e) {
     </div>
   </>
   
-} */}
+} */
+}

@@ -14,11 +14,13 @@ export default function Intro() {
     <div class="  flex flex-row h-3/4 " >
         <div class="basis-2/4  ">
           <div class="p-8 max-w-3xl text-5xl md:text-6xl font-bold mx-auto dark:text-white text-gray-800 text-center mt-auto">
-          <h3 class="font-serif text-2xl ">
+          <h3 class="font-mono  text-2xl ">
             Hello!
           </h3>
-          <h3 class="font-serif text-2xl">Nice to meet you!</h3>
+          <h3 class="font-mono  text-2xl">Nice to meet you!</h3>
           </div>
+
+          <h1 class="font-mono ">Keiji Morita</h1>
         </div>
 
 
@@ -40,13 +42,13 @@ export default function Intro() {
           
             <div class="flex flex-row container mx-auto text-center">
               <div>
-              <a href="/posts/profile" class="py-2 px-6 flex font-serif hover:text-blue-600/75">Profile</a>
+              <a href="/posts/profile" class="py-2 px-6 flex font-mono  hover:text-blue-600/75">Profile</a>
               </div>
               <div>
-              <a href="/posts/products" class="py-2 px-6 flex font-serif hover:text-blue-600/75">Products</a>
+              <a href="/posts/products" class="py-2 px-6 flex font-mono  hover:text-blue-600/75">Products</a>
               </div>
               <div>
-              <a href="/posts/contact" class="py-2 px-6 flex font-serif hover:text-blue-600/75">Contact</a>
+              <a href="/posts/contact" class="py-2 px-6 flex font-mono  hover:text-blue-600/75">Contact</a>
               </div>
             </div>
         </nav>
