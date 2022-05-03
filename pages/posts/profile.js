@@ -51,37 +51,15 @@ export default function Profile({pageProps }) {
       <div>
         <img src="/images/winning.png"/>
       </div> */}
-      <div class="bg-white shadow-xl rounded-lg overflow-hidden h-1/3">
+      <div>
+        <a href='https://geek-salon.com/webex'>Geek Salonについて</a>
+      </div>
 
-            <div class="m-2 text-justify text-sm">
-                <div class="flex flex-wrap items-center -mt-8 pb-3 ">
-                    <img 
-                        src="/images/original.png"
-                        alt="Perfil" />
-                    <span class="block text-lg font-bold text-white">Author</span>
-
-                </div>
-                <h2 class=" font-bold h-2 mb-5 text-center"> Tech.uniとは </h2>
-            </div>
-            <div class="w-full text-center  "><button class=" text-gray-400 text-lg mb-2"><i
-                        class="fas fa-plus-circle"></i></button>
-            </div>
-        </div>
-
-        <div class="bg-white shadow-xl rounded-lg overflow-hidden">
-            <div class="bg-cover bg-center h-56 p-4">
-            </div>
-            <div class="m-2 text-justify text-sm">
-                <div class="flex flex-wrap items-center -mt-8 pb-3 ">
-                    <img 
-                        src="/images/winning.png"
-                        alt="Perfil" />
-                    <span class="block text-lg font-bold text-white">Author</span>
-
-                </div>
-                <h2 class=" font-bold h-2 mb-5 text-center"> Geek Salonとは </h2>
-            </div>
-        </div>
+      <div>
+      <img 
+        src="/images/winning.png"
+        alt="Perfil" />
+      </div>
 
       </div>
       
@@ -89,3 +67,4 @@ export default function Profile({pageProps }) {
   </>
   
 }
+
