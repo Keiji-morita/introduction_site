@@ -29,6 +29,16 @@ export default function Resume() {
           </tr>
 
           <tr class="text-left border-b-2 border-gray-300">
+            <td class="border">2021.11</td>
+            <td class="border">Flutterをやり出す</td>
+          </tr>
+
+          <tr class="text-left border-b-2 border-gray-300">
+            <td class="border">2022.1</td>
+            <td class="border">Geek Salonへ入校　Vueをやる</td>
+          </tr>
+
+          <tr class="text-left border-b-2 border-gray-300">
             <td class="border">2022.3</td>
             <td class="border">Geek salon内でのハッカソンでオーディエンス賞受賞</td>
           </tr>

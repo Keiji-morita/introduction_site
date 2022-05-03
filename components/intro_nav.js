@@ -21,7 +21,7 @@ export default function Intro() {
 
           <img
             class="rounded-full basis-1/4 h-67 w-60"
-            src="/images/brian.png"
+            src="/images/IMG_2715.jpg"
             alt="My avatar"
           />
         </div>
