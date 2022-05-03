@@ -1,8 +1,8 @@
 import "tailwindcss/tailwind.css";
 
 
-export default function resume() {
-  return
+export default function Resume() {
+  return(
   
   <table class="rounded-t-lg m-5 w-5/6 mx-auto bg-gray-200 text-gray-800">
         <thead>
@@ -39,5 +39,6 @@ export default function resume() {
           </tr>
         </tbody>
       </table>
+      )
   
 }
