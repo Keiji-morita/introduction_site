@@ -44,23 +44,29 @@ export default function Profile({pageProps }) {
         </tbody>
       </table>
 
-      <div class="grid grid-cols-2 gap-3 ">
-      {/* <div>
-        <a Link href="https://geek-salon.com/webex" class="font-mono  text-2xl hover:text-blue-600/75"> Geek Salon WebExpert Course 👉</a>
-      </div>
-      <div>
-        <img src="/images/winning.png"/>
-      </div> */}
-      <div>
-        <a href='https://geek-salon.com/webex'>Geek Salonについて</a>
-      </div>
+      <div class="w-screen flex justify-center items-center ">
+      <div class="border-double border-4 border-gray-600 flex flex-row p-16">
+      
+      <a href="https://techuni.org/" class="block p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 m-4">
+    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white font-mono">関西学院大学　プログラミング研究会　Tech.uni</h5>
+          <img 
+          src="/images/original.png"
+          alt="Perfil" />
+          </a>
+        
 
-      <div>
-      <img 
-        src="/images/winning.png"
-        alt="Perfil" />
-      </div>
+      
 
+
+      <a href="https://geek-salon.com/webex" class="container mx-auto block p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 m-4">
+    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white font-mono">GeekSalon Webexpert</h5>
+          <img 
+          src="/images/winning.png"
+          alt="Perfil" />
+          </a>
+      
+
+        </div>
       </div>
       
       </div>
