@@ -1,14 +1,11 @@
 import "tailwindcss/tailwind.css";
 
 export default function C_form() {
-  return(
-      
-    
-
-    <div class="w-full bg-gray-800 h-screen">
-      <div class="bg-gradient-to-b from-blue-800 to-blue-600 h-96"></div>
-      <div class="max-w-5xl mx-auto px-6 sm:px-6 lg:px-8 mb-12">
-        <div class="bg-white w-full shadow rounded p-8 sm:p-12 -mt-72">
+  return (
+    <div class="w-full  h-screen">
+      <div class="bg-gradient-to-b  h-96"></div>
+      <div class="max-w-5xl mx-auto px-6 sm:px-6 lg:px-8 mb-12 ">
+        <div class=" w-full shadow rounded p-8 sm:p-12 -mt-72 bg-slate-200">
           <p class="text-3xl font-bold leading-7 text-center text-black font-mono ">
             Contact
           </p>
@@ -64,9 +61,5 @@ export default function C_form() {
         </div>
       </div>
     </div>
- 
-
-      
-    )
-  
+  );
 }

@@ -1,6 +1,7 @@
 import  Intro from '../../components/intro_nav';
 import   Footer from '../../components/footer';
 
+
 export default function Profile({pageProps }) {
   return <>
   <component {...pageProps} />
@@ -8,20 +9,21 @@ export default function Profile({pageProps }) {
   <div class="h-screen w-screen">
   <Intro class="h-1/2"/>
     
-    <h1>My products</h1>
+    
 
 
 <link rel="stylesheet" href="https://cdn.tailgrids.com/tailgrids-fallback.css" />
 
 
-<section class="pt-20 lg:pt-[120px] pb-10 lg:pb-20 bg-[#F3F4F6]">
+
+<div class="w-full  h-screen">
   <div class="container">
       <div class="flex flex-wrap -mx-4">
 
-        <div class="w-full md:w-1/2 xl:w-1/3 px-4">
-            <div class="bg-white rounded-lg overflow-hidden mb-10">
+        <div class="w-full md:w-1/2 xl:w-1/3 px-4 outline-1 ">
+            <div class="rounded-lg overflow-hidden mb-10 bg-slate-200">
               <img
-                  src="https://cdn.tailgrids.com/1.0/assets/images/cards/card-01/image-02.jpg"
+                  src="/images/icon.png"
                   alt="image"
                   class="w-full"
                   />
@@ -42,12 +44,11 @@ export default function Profile({pageProps }) {
                         hover:text-primary
                         "
                         >
-                    The ultimate UX and UI guide to card design
+                    i-Listenner -Flutter-
                     </a>
                   </h3>
                   <p class="text-base text-body-color leading-relaxed mb-7">
-                    Lorem ipsum dolor sit amet pretium consectetur adipiscing
-                    elit. Lorem consectetur adipiscing elit.
+                  Flutterのtext_to_speechライブラリを使用し、音声入力した内容をメモとして残せるアプリです。
                   </p>
                   <a
                     href="javascript:void(0)"
@@ -70,10 +71,10 @@ export default function Profile({pageProps }) {
         </div>
 
         
-        <div class="w-full md:w-1/2 xl:w-1/3 px-4">
-            <div class="bg-white rounded-lg overflow-hidden mb-10">
+        <div class="outline-1 w-full md:w-1/2 xl:w-1/3 px-4 ">
+            <div class=" rounded-lg overflow-hidden mb-10 bg-slate-200">
               <img
-                  src="https://cdn.tailgrids.com/1.0/assets/images/cards/card-01/image-03.jpg"
+                  src="/images/codable.png"
                   alt="image"
                   class="w-full"
                   />
@@ -94,15 +95,14 @@ export default function Profile({pageProps }) {
                         hover:text-primary
                         "
                         >
-                    Creative Card Component designs graphic elements
+                    Codable -Vue.js-
                     </a>
                   </h3>
                   <p class="text-base text-body-color leading-relaxed mb-7">
-                    Lorem ipsum dolor sit amet pretium consectetur adipiscing
-                    elit. Lorem consectetur adipiscing elit.
+                  GeekSalonのチームで開発したCSS学習サイトです。ミニゲームが三つあり、そのうちMayor-cssというゲームの開発、ホーム画面実装の一部を担当しました。
                   </p>
                   <a
-                    href="javascript:void(0)"
+                    href="https://geek-salon-products.com/CardDetail/Gw5jQjE4aoM4P25NjnQw"
                     class="
                     inline-block
                     py-2
@@ -122,7 +122,9 @@ export default function Profile({pageProps }) {
         </div>
       </div>
   </div>
-</section>
+  </div>
+
+
 
   
     <div>
