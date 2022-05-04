@@ -1,4 +1,5 @@
 import  Intro from '../../components/intro_nav';
+import   Footer from '../../components/footer';
 
 export default function Profile({pageProps }) {
   return <>
@@ -8,7 +9,14 @@ export default function Profile({pageProps }) {
   <Intro class="h-1/2"/>
     
     <h1>These are my products</h1>
-    </div>
+  
+    <div>
+        <Footer />
+      </div>
+
+  </div>
+
+
   </>
   
 }

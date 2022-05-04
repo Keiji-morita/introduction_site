@@ -3,6 +3,8 @@ import  Intro from '../../components/intro_nav';
 import Resume from '../../components/resume';
 import About from '../../components/aboout';
 
+import Footer from '../../components/footer';
+
 
 export default function Profile({pageProps}) {
   return <>
@@ -10,10 +12,12 @@ export default function Profile({pageProps}) {
   <div class="h-screen w-screen">
   <Intro class="h-1/2"/>
 
+  <div>
   <About />
-
+  </div>
+  <div>
   <Resume />
-
+  </div>
       <div class="w-screen flex justify-center items-center ">
       <div class="border-double border-4 border-gray-600 flex flex-row p-16">
         
@@ -41,7 +45,14 @@ export default function Profile({pageProps}) {
         </div>
       </div>
       
-      </div>
+      
+      
+      <div>
+        {/* <Footer /> */}
+        
+        <Footer />
+        </div>
+        </div>
   </>
   
 }
