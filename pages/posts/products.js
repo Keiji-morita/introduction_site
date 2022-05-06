@@ -17,7 +17,7 @@ export default function Profile({pageProps }) {
 
 
 <div class="w-full  h-screen">
-  <div class="container flex justify-center items-center flex-col">
+  <div class="container">
       <div class="flex flex-wrap -mx-4">
 
         <div class="w-full md:w-1/2 xl:w-1/3 px-4 outline-1 ">

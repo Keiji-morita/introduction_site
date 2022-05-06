@@ -58,22 +58,25 @@ export default function Intro() {
                   Products
                 </a>
               </div>
+
               <div>
                 <a
-                  href="/posts/contact"
+                  href="/posts/blogs"
+                  class="py-2 px-6 flex font-mono  hover:text-blue-600/75"
+                >
+                  Articles
+                </a>
+              </div>
+              
+              <div>
+                <a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSeqYXCcBJQ3uePXDDAkcNYRdpqOVqvJ6PaqQAlQgVImou5BoQ/viewform?usp=sf_link"
                   class="py-2 px-6 flex font-mono  hover:text-blue-600/75"
                 >
                   Contact
                 </a>
               </div>
-              <div>
-                <a
-                  href="/posts/contact"
-                  class="py-2 px-6 flex font-mono  hover:text-blue-600/75"
-                >
-                  Plan
-                </a>
-              </div>
+
             </div>
           </nav>
         </div>

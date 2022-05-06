@@ -3,13 +3,17 @@ import "tailwindcss/tailwind.css";
 export default function C_form() {
   return (
     <div class="w-full  h-screen">
-      <div class="bg-gradient-to-b  h-96"></div>
+      <div class="bg-gradient-to-b  h-96">
+      </div>
       <div class="max-w-5xl mx-auto px-6 sm:px-6 lg:px-8 mb-12 ">
         <div class=" w-full shadow rounded p-8 sm:p-12 -mt-72 bg-slate-200">
           <p class="text-3xl font-bold leading-7 text-center text-black font-mono ">
             Contact
           </p>
-          <form action="" method="post">
+          <div>
+
+          </div>
+          <form action="https:api//.web3forms.com/submit" method="post">
             <div class="md:flex items-center mt-12">
               <div class="w-full md:w-1/2 flex flex-col">
                 <label class="font-semibold leading-none text-black font-mono ">
