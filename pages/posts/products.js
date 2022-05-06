@@ -51,7 +51,7 @@ export default function Profile({pageProps }) {
                   Flutterのtext_to_speechライブラリを使用し、音声入力した内容をメモとして残せるアプリです。
                   </p>
                   <a
-                    href="javascript:void(0)"
+                    href="https://github.com/Keiji-morita/i-Listner-forfebularyHackathon"
                     class="
                     inline-block
                     py-2
