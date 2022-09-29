@@ -19,15 +19,11 @@ export default function Intro() {
             </div>
           </div>
 
-          
           <img
-            class=" flex-1   h-500 w"
-            src="/images/selfee.png.png"
+            class="rounded-full basis-1/4 h-67 w-60"
+            src="/images/IMG_2715.jpg"
             alt="My avatar"
           />
-
-
-
         </div>
         <div class="border-double">
           <nav
@@ -71,7 +67,7 @@ export default function Intro() {
                   Articles
                 </a>
               </div>
-              
+
               <div>
                 <a
                   href="https://docs.google.com/forms/d/e/1FAIpQLSeqYXCcBJQ3uePXDDAkcNYRdpqOVqvJ6PaqQAlQgVImou5BoQ/viewform?usp=sf_link"
@@ -80,7 +76,6 @@ export default function Intro() {
                   Contact
                 </a>
               </div>
-
             </div>
           </nav>
         </div>
