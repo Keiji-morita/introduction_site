@@ -51,7 +51,7 @@ export default function Profile({pageProps }) {
                   Flutterのtext_to_speechライブラリを使用し、音声入力した内容をメモとして残せるアプリです。
                   </p>
                   <a
-                    href="https://github.com/Keiji-morita/i-Listner-forfebularyHackathon"
+                    href="https://apps.apple.com/jp/app/%E9%9F%B3%E5%A3%B0%E5%85%A5%E5%8A%9B-i-listener/id1644501381"
                     class="
                     inline-block
                     py-2
@@ -99,10 +99,10 @@ export default function Profile({pageProps }) {
                     </a>
                   </h3>
                   <p class="text-base text-body-color leading-relaxed mb-7">
-                  GeekSalonのチームで開発したCSS学習サイトです。ミニゲームが三つあり、そのうちMayor-cssというゲームの開発、ホーム画面実装の一部を担当しました。
+                    プログラミングサークルのハッカソンでチーム開発を行いました。
                   </p>
                   <a
-                    href="https://geek-salon-products.com/CardDetail/Gw5jQjE4aoM4P25NjnQw"
+                    href="https://setouchi-web-app.web.app/"
                     class="
                     inline-block
                     py-2

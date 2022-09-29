@@ -11,7 +11,7 @@ export default function Intro() {
       <header></header>
       <div class="h-2/3 w-screen">
         <div class="  flex flex-row h-3/4 ">
-          <div class="basis-2/4 ">
+          <div class="flex-1">
             <div class="p-8 max-w-3xl text-5xl md:text-6xl font-bold mx-auto dark:text-white text-gray-800 text-center mt-auto place-content-between">
               <h3 class="font-mono  text-2xl ">Hello!</h3>
               <h3 class="font-mono  text-2xl">Nice to meet you!</h3>
@@ -19,11 +19,15 @@ export default function Intro() {
             </div>
           </div>
 
+          
           <img
-            class="rounded-full basis-1/4 h-67 w-60"
-            src="/images/IMG_2715.jpg"
+            class=" flex-1   h-500 w"
+            src="/images/selfee.png.png"
             alt="My avatar"
           />
+
+
+
         </div>
         <div class="border-double">
           <nav

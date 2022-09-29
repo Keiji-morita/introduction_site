@@ -1,24 +1,19 @@
 import Intro from "../../components/intro_nav";
-import C_form  from "../../components/c-form";
-import Footer  from "../../components/footer";
-
+import C_form from "../../components/c-form";
+import Footer from "../../components/footer";
 
 export default function Profile({ pageProps }) {
   return (
     <>
       <component {...pageProps} />
       <div class="h-screen w-screen">
-    
-      <Intro class="h-1/2" />
+        <Intro class="h-1/2" />
 
-      <C_form />
+        <C_form />
 
-      <Footer />
-
-
+        <Footer />
       </div>
-      </>
-    
+    </>
   );
 }
 {

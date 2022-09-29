@@ -32,13 +32,13 @@ export default function Profile({pageProps}) {
       
 
 
-      <a href="https://geek-salon.com/webex" class="container mx-auto block p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 m-4">
+      {/* <a href="https://geek-salon.com/webex" class="container mx-auto block p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 m-4">
     <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white font-mono">GeekSalon Webexpert</h5>
           <img 
           src="/images/winning.png"
           alt="Perfil" />
           <p>賞を頂いた際の賞状です</p>
-          </a>
+          </a> */}
           
       
 
